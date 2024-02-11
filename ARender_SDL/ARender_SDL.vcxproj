@@ -138,18 +138,19 @@
     <ClCompile Include="camera.cpp" />
     <ClCompile Include="color.cpp" />
     <ClCompile Include="displayHandler.cpp" />
+    <ClCompile Include="geometry.cpp" />
     <ClCompile Include="inputHandler.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="material.cpp" />
     <ClCompile Include="math.cpp" />
-    <ClCompile Include="matrix.cpp" />
     <ClCompile Include="mesh.cpp" />
     <ClCompile Include="model.cpp" />
     <ClCompile Include="rasterization.cpp" />
     <ClCompile Include="renderHandler.cpp" />
     <ClCompile Include="scene.cpp" />
     <ClCompile Include="sceneHandler.cpp" />
-    <ClCompile Include="vector.cpp" />
+    <ClCompile Include="shader.cpp" />
+    <ClCompile Include="texture.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="apllication.h" />
@@ -157,10 +158,10 @@
     <ClInclude Include="camera.h" />
     <ClInclude Include="color.h" />
     <ClInclude Include="displayHandler.h" />
+    <ClInclude Include="geometry.h" />
     <ClInclude Include="inputHandler.h" />
     <ClInclude Include="material.h" />
     <ClInclude Include="math.h" />
-    <ClInclude Include="matrix.h" />
     <ClInclude Include="mesh.h" />
     <ClInclude Include="model.h" />
     <ClInclude Include="rasterization.h" />
@@ -168,7 +169,8 @@
     <ClInclude Include="resource.h" />
     <ClInclude Include="scene.h" />
     <ClInclude Include="sceneHandler.h" />
-    <ClInclude Include="vector.h" />
+    <ClInclude Include="shader.h" />
+    <ClInclude Include="texture.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ARender_SDL.rc" />

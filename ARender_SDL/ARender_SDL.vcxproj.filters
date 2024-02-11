@@ -37,6 +37,12 @@
     <Filter Include="源文件\Utils">
       <UniqueIdentifier>{c9e3d451-de5d-4496-a803-42a13fb2507e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Shader">
+      <UniqueIdentifier>{f6d4142a-0e7e-4776-bfd8-ee44a548a27a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Shader">
+      <UniqueIdentifier>{a9edce2d-a7b4-48b5-a9d4-7d8ad58cb35c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -60,13 +66,7 @@
     <ClCompile Include="math.cpp">
       <Filter>源文件\Math</Filter>
     </ClCompile>
-    <ClCompile Include="vector.cpp">
-      <Filter>源文件\Math</Filter>
-    </ClCompile>
     <ClCompile Include="scene.cpp">
-      <Filter>源文件\Graphic</Filter>
-    </ClCompile>
-    <ClCompile Include="material.cpp">
       <Filter>源文件\Graphic</Filter>
     </ClCompile>
     <ClCompile Include="mesh.cpp">
@@ -81,14 +81,23 @@
     <ClCompile Include="buffer.cpp">
       <Filter>源文件\Utils</Filter>
     </ClCompile>
-    <ClCompile Include="matrix.cpp">
+    <ClCompile Include="color.cpp">
       <Filter>源文件\Math</Filter>
     </ClCompile>
-    <ClCompile Include="rasterization.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="shader.cpp">
+      <Filter>源文件\Shader</Filter>
     </ClCompile>
-    <ClCompile Include="color.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="texture.cpp">
+      <Filter>源文件\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="rasterization.cpp">
+      <Filter>源文件\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>源文件\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry.cpp">
+      <Filter>源文件\Math</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -110,14 +119,8 @@
     <ClInclude Include="math.h">
       <Filter>头文件\Math</Filter>
     </ClInclude>
-    <ClInclude Include="vector.h">
-      <Filter>头文件\Math</Filter>
-    </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="material.h">
-      <Filter>头文件\Graphic</Filter>
     </ClInclude>
     <ClInclude Include="model.h">
       <Filter>头文件\Graphic</Filter>
@@ -134,14 +137,23 @@
     <ClInclude Include="buffer.h">
       <Filter>头文件\Utils</Filter>
     </ClInclude>
-    <ClInclude Include="matrix.h">
+    <ClInclude Include="color.h">
       <Filter>头文件\Math</Filter>
     </ClInclude>
-    <ClInclude Include="rasterization.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="shader.h">
+      <Filter>头文件\Shader</Filter>
     </ClInclude>
-    <ClInclude Include="color.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="texture.h">
+      <Filter>头文件\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="rasterization.h">
+      <Filter>头文件\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>头文件\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry.h">
+      <Filter>头文件\Math</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

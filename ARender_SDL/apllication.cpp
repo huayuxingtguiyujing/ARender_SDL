@@ -43,18 +43,13 @@ void Apllication::runApp() {
 
 	while (!cancelFlag) {
 		startTime = SDL_GetTicks();
+		// TODO: 所有模块 都放置在此处
 
 		inputHandler.processInput(cancelFlag, deltaTime);
 
 		renderHandler.clearBuffers();
 
-		// TODO: 所有模块 都放置在此处
-
-		// 摄像机变换
-		// NOTICE: 经输出
-		/*Matrix cameraMat = sceneHandler.getCurCamera()->getCameraTrans();
-		Matrix viewMat = Matrix::getViewport(0, 0, width, height);*/
-
+		
 		// 测试绘制三角形
 		/*Vec3f A = Vec3f(500, 500, 0);
 		Vec3f B = Vec3f(600, 600, 0);
@@ -70,15 +65,13 @@ void Apllication::runApp() {
 			color, width, height, displayHandler.getSDLFormat());*/
 
 		// 加载模型
-		renderHandler.renderModel(sceneHandler.getCurModel(), renderHandler.getZBuffer(), renderHandler.getScreenBuffer(),
-			width, height, displayHandler.getSDLFormat());
+		renderHandler.renderModel2(width, height, displayHandler.getSDLFormat());
 
 		// 刷新到屏幕上
 		displayHandler.swapBuffers(renderHandler.getScreenBuffer());
 
 		endTime = SDL_GetTicks();
 		deltaTime = endTime - startTime;
-
 		//std::cout << "cost time: " << deltaTime << std::endl;
 	}
 }

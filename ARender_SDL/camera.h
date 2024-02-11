@@ -1,9 +1,6 @@
 #pragma once
 
-#include "vector.h"
-#include "matrix.h"
-
-#include "rasterization.h"
+#include "geometry.h"
 
 class Camera
 {

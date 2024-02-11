@@ -1,5 +1,7 @@
 #include "camera.h"
 
+#include "rasterization.h"
+
 Matrix Camera::getCameraTrans() {
 	
 	Matrix translate = Matrix::getTranslate(position.x, position.y, position.z);
@@ -35,9 +37,9 @@ void Camera::RotateCamera(float rx, float ry, float rz) {
 	Matrix rotationZ = Matrix::getRotationX(rz);
 	Matrix rotation = rotationX * rotationY * rotationZ;
 
-	up = Rasterization::MatrixToVec(rotation * Rasterization::VecToMatrix(up));
-	right = Rasterization::MatrixToVec(rotation * Rasterization::VecToMatrix(right));
-	gazeDir = Rasterization::MatrixToVec(rotation * Rasterization::VecToMatrix(gazeDir));
+	up = MatrixToVec(rotation * VecToMatrix(up));
+	right = MatrixToVec(rotation * VecToMatrix(right));
+	gazeDir = MatrixToVec(rotation * VecToMatrix(gazeDir));
 
 	std::cout << "rotate the camera: " << rx << "," << ry << "," << rz << std::endl;
 }

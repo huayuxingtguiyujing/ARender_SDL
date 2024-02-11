@@ -6,8 +6,6 @@
 #include "inputHandler.h"
 
 #include "color.h"
-#include "rasterization.h"
-
 #include "model.h"
 
 #include <iostream>

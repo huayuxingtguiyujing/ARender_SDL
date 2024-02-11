@@ -84,7 +84,8 @@ Model::Model(const char* filename) : verts_(), facesVertex_() {
         }
         
     }
-    std::cerr << "vertex num: " << verts_.size() << ", face num: " << facesVertex_.size() << std::endl;
+    std::cerr << "vertex num: " << verts_.size() << ", face num: " << facesVertex_.size() 
+        << "face vertexs" << facesVertex_.size() << "face uv: " << facesTexture_.size() << ", face normals: " << facesNormal_.size() << std::endl;
 }
 
 Model::~Model() {
@@ -98,15 +99,38 @@ int Model::nfaces() {
     return (int)facesVertex_.size();
 }
 
-// 访问模型片元数据
-std::vector<int> Model::face(int idx) {
-    return facesVertex_[idx];
+
+
+// 访问 顶点的法向量
+Vec3f Model::normal(int index) {
+    return normals_[index];
 }
 
-// 访问模型顶点数据
-Vec3f Model::vert(int i) {
-    return verts_[i];
+// 访问 顶点坐标
+Vec3f Model::vert(int index) {
+    return verts_[index];
 }
+
+// 访问 顶点法向量
+Vec3f Model::texels(int index) {
+    return texels_[index];
+}
+
+// 访问 片元三个顶点坐标的index
+std::vector<int> Model::faceVertex(int index) {
+    return facesVertex_[index];
+}
+
+// 访问 片元三个点的法向量的index
+std::vector<int> Model::faceNormal(int index) {
+    return facesNormal_[index];
+}
+
+// 访问 片元三个点uv的index
+std::vector<int> Model::faceTexture(int index) {
+    return facesTexture_[index];
+}
+
 
 // 分割字符串
 std::vector<std::string> Model::splitStr(std::string& str, char deli) {
