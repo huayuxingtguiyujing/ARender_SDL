@@ -1,6 +1,15 @@
 #include "Model.h"
 
 Model::Model(const char* filename) : verts_(), facesVertex_() {
+
+    // ;
+    // 测试读取 texture 文件
+    textureTest = Texture("obj/texture/african_head_diffuse.png", "RGB");
+
+    diffuseTexture = TGAImage();
+    TGAImage::load_texture("obj/texture", "african_head_diffuse.tga", diffuseTexture);
+    //std::cout << "The texture condition: " << textureTest2.get_width() << ", " << textureTest2.get_height() << std::endl;
+
     std::ifstream in;
     in.open(filename, std::ifstream::in);
     if (in.fail()) {
@@ -131,6 +140,14 @@ std::vector<int> Model::faceTexture(int index) {
     return facesTexture_[index];
 }
 
+// TODO: Texture 类需要修改，此方法无法正常使用
+Texture Model::getTextureTest() {
+    return textureTest;
+}
+
+Vec3f Model::getDiffuse(float u, float v) {
+    return diffuseTexture.get(u, v, false);
+}
 
 // 分割字符串
 std::vector<std::string> Model::splitStr(std::string& str, char deli) {

@@ -151,6 +151,7 @@
     <ClCompile Include="sceneHandler.cpp" />
     <ClCompile Include="shader.cpp" />
     <ClCompile Include="texture.cpp" />
+    <ClCompile Include="tgaImage.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="apllication.h" />
@@ -171,6 +172,7 @@
     <ClInclude Include="sceneHandler.h" />
     <ClInclude Include="shader.h" />
     <ClInclude Include="texture.h" />
+    <ClInclude Include="tgaImage.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ARender_SDL.rc" />

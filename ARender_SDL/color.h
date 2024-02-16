@@ -6,7 +6,7 @@ struct Color {
 		struct {
 			unsigned char b, g, r, a;
 		};
-		unsigned char raw[4];
+		unsigned char bgra[4];
 		unsigned int val;
 	};
 	int bytespp;
@@ -21,7 +21,7 @@ struct Color {
 
 	Color(const unsigned char* p, int bpp) : val(0), bytespp(bpp) {
 		for (int i = 0; i < bpp; i++) {
-			raw[i] = p[i];
+			bgra[i] = p[i];
 		}
 	}
 

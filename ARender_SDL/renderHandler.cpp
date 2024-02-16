@@ -81,7 +81,7 @@ void RenderHandler::renderModel2(float width, float height, const SDL_PixelForma
 
 	// ģ�ͱ任
 	Matrix translate = Matrix::getTranslate(0, 0, 0);
-	Matrix rotation = Matrix::getRotationZ(0);
+	Matrix rotation = Matrix::getRotationY(0);
 	Matrix zoom = Matrix::getZoom(1.);
 	Matrix modelTrans = zoom * rotation * translate;
 
@@ -140,6 +140,7 @@ bool RenderHandler::createBuffers(int w, int h) {
 
 void RenderHandler::clearBuffers() {
 	zBuffer->clear();
+
 	SSAA_zBuffer->clear();
 	pixelBuffer->clear();
 	SSAA_pixelBuffer->clear();

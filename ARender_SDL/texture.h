@@ -6,6 +6,7 @@
 
 class Texture {
 public:
+    Texture();
     Texture(std::string path, std::string type);
     ~Texture();
 

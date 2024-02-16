@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\src\apllication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\src\buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\src\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\src\color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\src\displayHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\src\geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\src\inputHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\src\material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\src\math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\src\mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\src\model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\src\rasterization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\src\renderHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\src\scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\src\sceneHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\src\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\src\texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\include\apllication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\include\buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\include\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\include\color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\include\displayHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\include\geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\include\inputHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\include\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\include\math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\include\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\include\model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\include\rasterization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\include\renderHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\include\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\include\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\include\sceneHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\include\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\include\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C2F941A3-1721-3247-AC6C-67BECB10B4DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7154CE5E-0630-3260-AFDA-F3B3DDA8C092}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

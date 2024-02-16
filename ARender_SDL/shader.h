@@ -29,7 +29,8 @@ struct BlinnPhongShader : IShader {
 	Matrix ViewTrans;
 
 	// 当前正在遍历的 顶点/片元 数据
-	Vec3f vertex_normals[3], screen_coords[3], world_coords[3];
+	Vec3f vertex_normals[3], screen_coords[3], world_coords[3], uv_coords[3];
+	Vec3f uv_color[3];		// 当前遍历 三个顶点 颜色
 
 	BlinnPhongShader(Model* model, Matrix mTrans, Matrix cTrans, Matrix proTrans, Matrix vTrans, Vec3f light);
 

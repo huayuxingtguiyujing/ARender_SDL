@@ -99,6 +99,9 @@
     <ClCompile Include="geometry.cpp">
       <Filter>源文件\Math</Filter>
     </ClCompile>
+    <ClCompile Include="tgaImage.cpp">
+      <Filter>源文件\Shader</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="apllication.h">
@@ -154,6 +157,9 @@
     </ClInclude>
     <ClInclude Include="geometry.h">
       <Filter>头文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="tgaImage.h">
+      <Filter>头文件\Shader</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

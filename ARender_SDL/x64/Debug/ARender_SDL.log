@@ -1,167 +1,19 @@
-﻿  apllication.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: “M_PI”: 宏重定义
-D:\C_SDK\SDL2-devel-2.28.5-VC\SDL2-2.28.5\include\SDL_stdinc.h(614,1): message : 参见“M_PI”的前一个定义
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(47,35): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(48,37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\apllication.cpp(45,27): warning C4244: “=”: 从“Uint32”转换到“float”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\apllication.cpp(48,41): warning C4244: “参数”: 从“float”转换到“unsigned int”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\apllication.cpp(73,25): warning C4244: “=”: 从“Uint32”转换到“float”，可能丢失数据
-  buffer.cpp
-  camera.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: “M_PI”: 宏重定义
-D:\C_SDK\SDL2-devel-2.28.5-VC\SDL2-2.28.5\include\SDL_stdinc.h(614,1): message : 参见“M_PI”的前一个定义
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(47,35): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(48,37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-  color.cpp
-  displayHandler.cpp
-  geometry.cpp
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\geometry.cpp(120,29): warning C4305: “*=”: 从“double”到“float”截断
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\geometry.cpp(130,29): warning C4305: “*=”: 从“double”到“float”截断
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\geometry.cpp(140,29): warning C4305: “*=”: 从“double”到“float”截断
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\geometry.cpp(160,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-  inputHandler.cpp
-  main.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: “M_PI”: 宏重定义
-D:\C_SDK\SDL2-devel-2.28.5-VC\SDL2-2.28.5\include\SDL_stdinc.h(614,1): message : 参见“M_PI”的前一个定义
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(47,35): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(48,37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-  material.cpp
-  math.cpp
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\Math.h(47,35): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\Math.h(48,37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-  mesh.cpp
-  model.cpp
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\model.cpp(14,10): warning C4101: “trash”: 未引用的局部变量
-  rasterization.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: “M_PI”: 宏重定义
-D:\C_SDK\SDL2-devel-2.28.5-VC\SDL2-2.28.5\include\SDL_stdinc.h(614,1): message : 参见“M_PI”的前一个定义
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(47,35): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(48,37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(11,37): warning C4305: “+=”: 从“double”到“float”截断
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(12,9): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(13,9): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(19,27): warning C4244: “参数”: 从“t”转换到“int”，可能丢失数据
+﻿  tgaImage.cpp
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(295,11): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(296,11): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(301,40): warning C4244: “参数”: 从“unsigned int”转换到“t”，可能丢失数据
           with
           [
               t=float
           ]
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(19,21): warning C4244: “参数”: 从“t”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(300,40): warning C4244: “参数”: 从“unsigned int”转换到“t”，可能丢失数据
           with
           [
               t=float
           ]
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(19,15): warning C4244: “参数”: 从“t”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(299,49): warning C4244: “参数”: 从“unsigned int”转换到“t”，可能丢失数据
           with
           [
               t=float
           ]
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(19,9): warning C4244: “参数”: 从“t”转换到“int”，可能丢失数据
-          with
-          [
-              t=float
-          ]
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(77,55): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(77,48): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(115,62): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(115,55): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(124,82): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(124,61): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(124,40): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(128,20): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(130,18): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(131,17): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(184,64): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
-          with
-          [
-              t=float
-          ]
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(184,55): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
-          with
-          [
-              t=float
-          ]
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(185,37): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
-          with
-          [
-              t=float
-          ]
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(185,28): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
-          with
-          [
-              t=float
-          ]
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(250,31): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(250,28): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(250,25): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(251,26): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
-          with
-          [
-              t=float
-          ]
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(251,21): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
-          with
-          [
-              t=float
-          ]
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(276,100): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
-          with
-          [
-              t=float
-          ]
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(276,95): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
-          with
-          [
-              t=float
-          ]
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(283,23): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
-          with
-          [
-              t=float
-          ]
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(283,18): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
-          with
-          [
-              t=float
-          ]
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(284,27): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
-          with
-          [
-              t=float
-          ]
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(284,22): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
-          with
-          [
-              t=float
-          ]
-  renderHandler.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: “M_PI”: 宏重定义
-D:\C_SDK\SDL2-devel-2.28.5-VC\SDL2-2.28.5\include\SDL_stdinc.h(614,1): message : 参见“M_PI”的前一个定义
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(47,35): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(48,37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(48,52): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(48,45): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(96,52): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(96,45): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\buffer.h(30,29): warning C4244: “=”: 从“float”转换到“T”，可能丢失数据
-          with
-          [
-              T=Uint32
-          ]
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\buffer.h(27,1): message : 在编译 类 模板 成员函数“void Buffer<Uint32>::clear(void)”时
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(144,20): message : 查看对正在编译的函数 模板 实例化“void Buffer<Uint32>::clear(void)”的引用
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(123,34): message : 查看对正在编译的 类 模板 实例化“Buffer<Uint32>”的引用
-  scene.cpp
-  sceneHandler.cpp
-  shader.cpp
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(47,35): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(48,37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\shader.cpp(52,22): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\shader.cpp(52,19): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\shader.cpp(52,16): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
-  texture.cpp
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\texture.cpp(91,14): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\texture.cpp(92,14): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\texture.cpp(110,14): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\texture.cpp(111,14): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-  正在生成代码...
   ARender_SDL.vcxproj -> C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\x64\Debug\ARender_SDL.exe

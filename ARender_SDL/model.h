@@ -7,6 +7,8 @@
 #include <sstream>
 
 #include "geometry.h"
+#include "texture.h"
+#include "tgaImage.h"
 
 class Model
 {
@@ -27,6 +29,9 @@ public:
 	std::vector<int> faceVertex(int index);
 	std::vector<int> faceNormal(int index);
 	std::vector<int> faceTexture(int index);
+
+	Texture getTextureTest();
+	Vec3f getDiffuse(float u, float v);
 	
 private:
 	std::vector<Vec3f> verts_;				// 所有的顶点
@@ -36,6 +41,10 @@ private:
 	std::vector<std::vector<int> > facesVertex_;	// 所有的片元
 	std::vector<std::vector<int> > facesTexture_;
 	std::vector<std::vector<int> > facesNormal_;
+
+	// 纹理
+	Texture textureTest;
+	TGAImage diffuseTexture;
 
 	// 辅助方法
 	std::vector<std::string> splitStr(std::string & str, char deli);

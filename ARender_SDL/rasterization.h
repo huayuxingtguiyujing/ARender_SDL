@@ -38,7 +38,9 @@ public:
 		Buffer<float>* zBuffer_SSAA, Buffer<Uint32>* pixelBuffer_SSAA,
 		Vec3f lightDir, float width, float height, const SDL_PixelFormat* MapFormat);
 
-	static void triangle(Vec3f* triangleV, IShader &shader, Buffer<float>* zBuffer, Buffer<Uint32>* pixelBuffer, const SDL_PixelFormat* MapFormat);
+	static void triangle(Vec3f* triangleV, IShader& shader, Buffer<float>* zBuffer, Buffer<Uint32>* pixelBuffer, const SDL_PixelFormat* MapFormat);
+
+	static void triangle(Vec3f* triangleV, Buffer<float>* zBuffer, Buffer<Uint32>* pixelBuffer, Color color, const SDL_PixelFormat* MapFormat);
 
 private:
 	static const Uint32 PIXEL_FORMAT = SDL_PIXELFORMAT_RGB888;

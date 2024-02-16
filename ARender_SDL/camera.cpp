@@ -33,8 +33,8 @@ void Camera::MoveCamera(float tx, float ty, float tz) {
 
 void Camera::RotateCamera(float rx, float ry, float rz) {
 	Matrix rotationX = Matrix::getRotationX(rx);
-	Matrix rotationY = Matrix::getRotationX(ry);
-	Matrix rotationZ = Matrix::getRotationX(rz);
+	Matrix rotationY = Matrix::getRotationY(ry);
+	Matrix rotationZ = Matrix::getRotationZ(rz);
 	Matrix rotation = rotationX * rotationY * rotationZ;
 
 	up = MatrixToVec(rotation * VecToMatrix(up));

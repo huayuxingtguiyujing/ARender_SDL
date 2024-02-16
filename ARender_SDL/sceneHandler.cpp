@@ -10,6 +10,8 @@ SceneHandler::~SceneHandler() {
 bool SceneHandler::initSceneHandler() {
 	model = new Model("obj/african_head.obj");
 
+	// 
+
 	curScene = new Scene();
 
 	return true;

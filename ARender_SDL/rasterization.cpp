@@ -36,8 +36,8 @@ bool Rasterization::insideTriangle(float x, float y, const std::vector<Vec3f> tr
 	float result2 = (PB ^ BC) * (AB ^ BC);
 	float result3 = (PC ^ CA) * (BC ^ CA);
 
-	bool ans = (result1 > 0 && result2 > 0 && result3 > 0)
-		|| (result1 < 0 && result2 < 0 && result3 < 0);
+	bool ans = (result1 >= 0 && result2 >= 0 && result3 >= 0)
+		|| (result1 <= 0 && result2 <= 0 && result3 <= 0);
 
 	//std::cout << "point (" << x << "," << y << ") in triangle: " << ans << std::endl;
 
@@ -255,35 +255,67 @@ void Rasterization::triangle(Vec3f* world_triangleV, Vec3f* screen_triangleV, Ve
 
 }
 
+// 当前使用
 void Rasterization::triangle(Vec3f* triangleV, IShader &shader, Buffer<float>* zBuffer, Buffer<Uint32>* pixelBuffer, const SDL_PixelFormat* MapFormat) {
 	// 生成边界盒
 	BoundingBox boundBox = BoundingBox(triangleV, DisplayHandler::screenWidth, DisplayHandler::screenHeight);
 
 	Vec3f P;
-	std::vector<Vec3f> rec = std::vector<Vec3f>{ triangleV[0], triangleV[1], triangleV[2] };
+	//std::vector<Vec3f> rec = std::vector<Vec3f>{ triangleV[0], triangleV[1], triangleV[2] };
 
 	Color color;
 
 	// 遍历边界盒 设置每个像素
 	for (P.x = boundBox.minX; P.x <= boundBox.maxX; P.x++) {
 		for (P.y = boundBox.minY; P.y <= boundBox.maxY; P.y++) {
-			if (insideTriangle(P.x, P.y, rec)) {
-				// 获取重心坐标 [alpha, beta, gama]
-				Vec3f bc_screen = getBarycentric(triangleV[0], triangleV[1], triangleV[2], P);
-				float z_interpolated = bc_screen[0] * triangleV[0].z + bc_screen[1] * triangleV[1].z + bc_screen[2] * triangleV[2].z;
+			// 获取重心坐标 [alpha, beta, gama]
+			Vec3f bc_screen = getBarycentric(triangleV[0], triangleV[1], triangleV[2], P);
+			P.z = 0;
+			//bc_screen = bc_screen * (1 / (bc_screen.x + bc_screen.y + bc_screen.z));
+			float z_interpolated = bc_screen[0] * triangleV[0].z + bc_screen[1] * triangleV[1].z + bc_screen[2] * triangleV[2].z;
+			
+			// 跳过条件: 1.不在三角形内; 2.zbuffer检测未通过
+			// NOTICE: 黑边问题已经解决，原因其实很简单，计算重心坐标时，由于精度丢失或者其他原因
+			// 在边缘上的点的重心坐标值小于0（实际应该等于0），故而未能渲染到
+			if (bc_screen.x < -1e-1 || bc_screen.y < -1e-1 || bc_screen.z < -1e-1) {
+				continue;
+			}
+			if (z_interpolated < (*zBuffer)(P.x, P.y)) {
+				continue;
+			}
 
-				// 跳过条件: 1.不在三角形内; 2.zbuffer检测未通过
-				if (bc_screen.x < 0 || bc_screen.y < 0 || bc_screen.z < 0 || z_interpolated < (*zBuffer)(P.x, P.y)) {
-					continue;
-				}
-
-				// 深度检测？
-				bool visible = shader.fragment(bc_screen, color);
-				if (visible) {
-					(*zBuffer)(P.x, P.y) = z_interpolated;
-					(*pixelBuffer)(P.x, P.y) = SDL_MapRGB(MapFormat, color.r, color.g, color.b);
-				}
+			// 可见性检测
+			bool visible = shader.fragment(bc_screen, color);
+			if (visible) {
+				(*zBuffer)(P.x, P.y) = z_interpolated;
+				(*pixelBuffer)(P.x, P.y) = SDL_MapRGB(MapFormat, color.r, color.g, color.b);
 			}
 		}
 	}
 }
+
+void Rasterization::triangle(Vec3f* triangleV, Buffer<float>* zBuffer, Buffer<Uint32>* pixelBuffer, Color color, const SDL_PixelFormat* MapFormat) {
+	// 生成边界盒
+	BoundingBox boundBox = BoundingBox(triangleV, DisplayHandler::screenWidth, DisplayHandler::screenHeight);
+
+	Vec3f P;
+	std::vector<Vec3f> rec = std::vector<Vec3f>{ triangleV[0], triangleV[1], triangleV[2] };
+
+	// 遍历边界盒 设置每个像素
+	for (P.x = boundBox.minX; P.x <= boundBox.maxX; P.x++) {
+		for (P.y = boundBox.minY; P.y <= boundBox.maxY; P.y++) {
+			// 获取重心坐标 [alpha, beta, gama]
+			Vec3f bc_screen = getBarycentric(triangleV[0], triangleV[1], triangleV[2], P);
+			float z_interpolated = bc_screen[0] * triangleV[0].z + bc_screen[1] * triangleV[1].z + bc_screen[2] * triangleV[2].z;
+
+			// 跳过条件: 1.不在三角形内; 2.zbuffer检测未通过
+			if (bc_screen.x < 0 || bc_screen.y < 0 || bc_screen.z < 0 || z_interpolated < (*zBuffer)(P.x, P.y)) {
+				continue;
+			}
+
+			(*zBuffer)(P.x, P.y) = z_interpolated;
+			(*pixelBuffer)(P.x, P.y) = SDL_MapRGB(MapFormat, color.r, color.g, color.b);
+		}
+	}
+}
+

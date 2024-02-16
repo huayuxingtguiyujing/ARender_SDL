@@ -1,0 +1,3 @@
+C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/build/CMakeFiles/ARender_SDL.dir
+C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/build/CMakeFiles/ZERO_CHECK.dir

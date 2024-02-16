@@ -49,20 +49,20 @@ void Apllication::runApp() {
 
 		renderHandler.clearBuffers();
 
-		
 		// 测试绘制三角形
-		/*Vec3f A = Vec3f(500, 500, 0);
-		Vec3f B = Vec3f(600, 600, 0);
-		Vec3f C = Vec3f(500, 600, 0);
-		Vec3f trangleV[3] = {A, B, C};
-		Color color = Color(1,0,1,1);
-		for (int i = 0; i < 3; i++) {
-			trangleV[i] = Rasterization::MatrixToVec(viewMat * cameraMat * Rasterization::VecToMatrix(trangleV[i]));
-		}
+		/*Vec3f trangleV1[3] = { Vec3f(100, 100, 0), Vec3f(300, 300, 0), Vec3f(200, 300, 0) };
+		Color color1 = Color(255,255,255,1);
 
-		Rasterization::triangle(trangleV,
+		Vec3f trangleV2[3] = { Vec3f(200, 200, 0), Vec3f(300, 300, 0), Vec3f(200, 300, 0) };
+		Color color2 = Color(255, 0, 255, 1);
+
+		Rasterization::triangle(trangleV1,
 			renderHandler.getZBuffer(), renderHandler.getScreenBuffer(),
-			color, width, height, displayHandler.getSDLFormat());*/
+			color1, displayHandler.getSDLFormat());
+
+		Rasterization::triangle(trangleV2,
+			renderHandler.getZBuffer(), renderHandler.getScreenBuffer(),
+			color2, displayHandler.getSDLFormat());*/
 
 		// 加载模型
 		renderHandler.renderModel2(width, height, displayHandler.getSDLFormat());

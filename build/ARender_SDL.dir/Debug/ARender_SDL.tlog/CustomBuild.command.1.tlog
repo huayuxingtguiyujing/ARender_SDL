@@ -1,0 +1,10 @@
+^C:\USERS\LAIX\DESKTOP\TASKS\CLEARN\GIT_RENDER_SDL\ARENDER_SDL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\C_SDK\cmake-3.28.1-windows-x86_64\bin\cmake.exe" -SC:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL -BC:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/build --check-stamp-file C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
