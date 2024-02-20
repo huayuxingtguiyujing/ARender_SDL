@@ -92,12 +92,15 @@ void InputHandler::processInputEvent(SDL_Event* event, bool& done, unsigned int 
 			// 切换场景
 		case SDLK_1:
 			std::cout << "按下了SDLK 1" << std::endl;
+
 			break;
 		case SDLK_2:
 			std::cout << "按下了SDLK 2" << std::endl;
+
 			break;
 		case SDLK_3:
 			std::cout << "按下了SDLK 3" << std::endl;
+
 			break;
 
 			// 退出程序

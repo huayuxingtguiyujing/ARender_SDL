@@ -280,6 +280,9 @@ void Rasterization::triangle(Vec3f* triangleV, IShader &shader, Buffer<float>* z
 			if (bc_screen.x < -1e-1 || bc_screen.y < -1e-1 || bc_screen.z < -1e-1) {
 				continue;
 			}
+			/*if (bc_screen.x < -1e-2 || bc_screen.y < -1e-2 || bc_screen.z < -1e-2) {
+				continue;
+			}*/
 			if (z_interpolated < (*zBuffer)(P.x, P.y)) {
 				continue;
 			}

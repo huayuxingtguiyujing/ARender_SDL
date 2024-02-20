@@ -51,6 +51,12 @@ template <class t> struct Vec3 {
 	// 规范化矢量
 	float norm() const { return std::sqrt(x * x + y * y + z * z); }
 	Vec3<t>& normalize(t l = 1) { *this = (*this) * (l / norm()); return *this; }
+
+	// 用于 blinn shading 计算高光项
+	Vec3 reflect(const Vec3& N) {
+		return *this - (N * (*this * N) * 2.0f);
+	}
+
 	template <class > friend std::ostream& operator<<(std::ostream& s, Vec3<t>& v);
 };
 

@@ -14,7 +14,7 @@ class Model
 {
 
 public:
-	Model(const char* filename);
+	Model(std::string modelName, std::string sceneName);
 	~Model();
 
 	int nverts();
@@ -47,6 +47,7 @@ private:
 	TGAImage diffuseTexture;
 
 	// ¸¨Öú·½·¨
-	std::vector<std::string> splitStr(std::string & str, char deli);
+	std::vector<std::string> splitStr(std::string& str, char deli);
+	std::string getStrFileName(std::string filename);
 };
 

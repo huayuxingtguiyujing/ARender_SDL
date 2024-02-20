@@ -21,9 +21,9 @@ TGAImage::~TGAImage() {
 }
 
 // º”‘ÿŒ∆¿Ì
-void TGAImage::load_texture(std::string filename, const char* suffix, TGAImage& img) {
+void TGAImage::load_texture(std::string filename, std::string suffix, TGAImage& img) {
     std::string texfile(filename);
-    texfile = texfile + "/" + std::string(suffix);
+    texfile = texfile + "/" + suffix;
     bool flag = img.read_tga_file(texfile.c_str());
 
     //std::cout << "Texture load path: " << texfile << std::endl;

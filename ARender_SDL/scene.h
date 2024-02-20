@@ -1,6 +1,9 @@
 #pragma once
 
 #include "camera.h"
+#include "model.h"
+
+#include<queue>
 
 class Scene
 {
@@ -13,6 +16,7 @@ public:
 
 private:
 	Camera* camera;
+
 
 };
 

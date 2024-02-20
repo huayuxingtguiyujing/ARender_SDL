@@ -45,7 +45,7 @@ public:
     bool write_tga_file(const char* filename, bool rle = true);
 
     // ¼ÓÔØÎÆÀí
-    static void load_texture(std::string filename, const char* suffix, TGAImage& img);
+    static void load_texture(std::string filename, std::string suffix, TGAImage& img);
 
     // ÏñËØ²Ù×÷
     Color get(int x, int y);

@@ -1,19 +1,21 @@
 #include "Model.h"
 
-Model::Model(const char* filename) : verts_(), facesVertex_() {
+Model::Model(std::string modelName, std::string sceneName) : verts_(), facesVertex_() {
 
-    // ;
-    // 测试读取 texture 文件
-    textureTest = Texture("obj/texture/african_head_diffuse.png", "RGB");
+    // 获得模型的名称
+    std::string modelPath = "scene/" + sceneName + "/obj/" + modelName;
+    std::string texturePath = "scene/" + sceneName + "/texture";
 
+    // 加载纹理
     diffuseTexture = TGAImage();
-    TGAImage::load_texture("obj/texture", "african_head_diffuse.tga", diffuseTexture);
+    TGAImage::load_texture(texturePath, getStrFileName(modelName) + "_diffuse.tga", diffuseTexture);
     //std::cout << "The texture condition: " << textureTest2.get_width() << ", " << textureTest2.get_height() << std::endl;
 
+    // 打开模型文件
     std::ifstream in;
-    in.open(filename, std::ifstream::in);
+    in.open(modelPath, std::ifstream::in);
     if (in.fail()) {
-        std::cout << "打开模型文件失败,模型名称:" << filename << std::endl;
+        std::cout << "打开模型文件失败,模型名称:" << modelPath << std::endl;
         return;
     }
 
@@ -163,4 +165,14 @@ std::vector<std::string> Model::splitStr(std::string& str, char deli) {
         }
     }
     return splitString;
+}
+
+// 分割文件名
+std::string Model::getStrFileName(std::string filename) {
+    std::string str = std::string(filename);
+    size_t lastDotPos = str.find_last_of('.');
+    if (lastDotPos != std::string::npos) {
+        str = str.substr(0, lastDotPos);
+    }
+    return str;
 }

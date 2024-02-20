@@ -65,7 +65,8 @@ void Apllication::runApp() {
 			color2, displayHandler.getSDLFormat());*/
 
 		// 加载模型
-		renderHandler.renderModel2(width, height, displayHandler.getSDLFormat());
+		//renderHandler.renderModel2(width, height, displayHandler.getSDLFormat());
+		renderHandler.renderAllModel(width, height, displayHandler.getSDLFormat());
 
 		// 刷新到屏幕上
 		displayHandler.swapBuffers(renderHandler.getScreenBuffer());
