@@ -78,11 +78,11 @@ void InputHandler::processInputEvent(SDL_Event* event, bool& done, unsigned int 
 			// 旋转视角
 		case SDLK_q:
 			std::cout << "按下了SDLK q" << std::endl;
-			sceneHandler->getCurCamera()->RotateCamera(0, -25, 0);
+			sceneHandler->getCurCamera()->RotateCamera(0, -5, 0);
 			break;
 		case SDLK_e:
 			std::cout << "按下了SDLK e" << std::endl;
-			sceneHandler->getCurCamera()->RotateCamera(0, 25, 0);
+			sceneHandler->getCurCamera()->RotateCamera(0, 5, 0);
 			break;
 
 			// reset

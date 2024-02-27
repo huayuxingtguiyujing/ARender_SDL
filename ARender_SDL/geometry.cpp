@@ -184,6 +184,21 @@ Matrix Matrix::getPersProjection(float znear, float zfar, float aspectRatio, flo
     return Projection;
 }
 
+Matrix Matrix::getPersProjection2(float fov, float AR, float near, float far) {
+    Matrix projectionMat;
+    // 2.0版本 获取透视投影矩阵
+    float tanHalfFOVInverse = 1 / tan((fov / 2) * (M_PI / 180));
+
+    projectionMat[0][0] = tanHalfFOVInverse;
+    projectionMat[1][1] = AR * tanHalfFOVInverse;
+    projectionMat[2][2] = (near) / (far - near);
+    projectionMat[2][3] = (far * near) / (far - near);
+
+    projectionMat[3][2] = -1;
+
+    return projectionMat;
+}
+
 // 获取视口变换矩阵
 Matrix Matrix::getViewport(int x, int y, int w, int h) {
     // it seems not similar to games101 viewport trans matrix

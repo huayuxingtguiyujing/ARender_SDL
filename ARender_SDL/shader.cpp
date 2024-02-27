@@ -18,10 +18,8 @@ IShader::~IShader() {
 // 
 FlatShader::FlatShader(Model* model, Matrix mTrans, Matrix cTrans, Matrix proTrans, Matrix vTrans, Vec3f light)
 	:IShader(model, mTrans, cTrans, proTrans, vTrans, light){
-
 }
 FlatShader::~FlatShader() {
-
 }
 
 void FlatShader::vertex(int index, Vec3f*& triangleV) {
@@ -39,6 +37,7 @@ void FlatShader::vertex(int index, Vec3f*& triangleV) {
 	}
 	triangleV = screen_coords;
 }
+
 bool FlatShader::fragment(Vec3f bc_screen, Color& color) {
 	Vec3f vertexNormal = vertex_normals[0] * 0.33f + vertex_normals[1] * 0.33f + vertex_normals[2] * 0.33f;
 	float intensity = light_dir * vertexNormal;
@@ -52,9 +51,7 @@ bool FlatShader::fragment(Vec3f bc_screen, Color& color) {
 // 
 GouraudShader::GouraudShader(Model* model, Matrix mTrans, Matrix cTrans, Matrix proTrans, Matrix vTrans, Vec3f light)
 	:IShader(model, mTrans, cTrans, proTrans, vTrans, light) {
-
 }
-
 GouraudShader::~GouraudShader() {
 }
 
@@ -77,11 +74,12 @@ void GouraudShader::vertex(int index, Vec3f*& triangleV) {
 		specular[j] = std::pow(h_norm * vertex_normals[j], 2);
 		
 		// 计算世界坐标 屏幕坐标
-		world_coords[j] = MatrixToVec(CameraTrans * ModelTrans * VecToMatrix(v));
+		world_coords[j] = MatrixToVec(ProjectionTrans * CameraTrans * ModelTrans * VecToMatrix(v));
 		screen_coords[j] = MatrixToVec(ViewTrans * VecToMatrix(world_coords[j]));
 	}
 	triangleV = screen_coords;
 }
+
 bool GouraudShader::fragment(Vec3f bc_screen, Color& color) {
 	float diffuse_value = diffuse[0] * bc_screen[0] + diffuse[1] * bc_screen[1] + diffuse[2] * bc_screen[2];
 	float specular_value = specular[0] * bc_screen[0] + specular[1] * bc_screen[1] + specular[2] * bc_screen[2];
@@ -95,7 +93,6 @@ bool GouraudShader::fragment(Vec3f bc_screen, Color& color) {
 BlinnPhongShader::BlinnPhongShader(Model* model, Matrix mTrans, Matrix cTrans, Matrix proTrans, Matrix vTrans, Vec3f light) 
 	:IShader(model, mTrans, cTrans, proTrans, vTrans, light){
 }
-
 BlinnPhongShader::~BlinnPhongShader() {
 }
 

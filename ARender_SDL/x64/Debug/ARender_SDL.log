@@ -1,18 +1,23 @@
-﻿  renderHandler.cpp
+﻿  camera.cpp
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: “M_PI”: 宏重定义
 D:\C_SDK\SDL2-devel-2.28.5-VC\SDL2-2.28.5\include\SDL_stdinc.h(614,1): message : 参见“M_PI”的前一个定义
 C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(47,35): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
 C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(48,37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(45,52): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(45,45): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(78,52): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(78,45): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\camera.cpp(71,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  renderHandler.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: “M_PI”: 宏重定义
+D:\C_SDK\SDL2-devel-2.28.5-VC\SDL2-2.28.5\include\SDL_stdinc.h(614,1): message : 参见“M_PI”的前一个定义
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(47,35): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(48,37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(48,52): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(48,45): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
 C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\buffer.h(30,29): warning C4244: “=”: 从“float”转换到“T”，可能丢失数据
           with
           [
               T=Uint32
           ]
 C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\buffer.h(27,1): message : 在编译 类 模板 成员函数“void Buffer<Uint32>::clear(void)”时
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(133,20): message : 查看对正在编译的函数 模板 实例化“void Buffer<Uint32>::clear(void)”的引用
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(111,34): message : 查看对正在编译的 类 模板 实例化“Buffer<Uint32>”的引用
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(106,20): message : 查看对正在编译的函数 模板 实例化“void Buffer<Uint32>::clear(void)”的引用
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(84,34): message : 查看对正在编译的 类 模板 实例化“Buffer<Uint32>”的引用
+  正在生成代码...
   ARender_SDL.vcxproj -> C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\x64\Debug\ARender_SDL.exe

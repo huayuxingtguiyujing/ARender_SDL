@@ -35,11 +35,14 @@ void RenderHandler::renderModel(Model* model, float width, float height, const S
 	Matrix modelTrans = zoom * rotation * translate;
 
 	// 摄像机变换
-	Matrix cameraMat = sceneHandler->getCurCamera()->getCameraTrans();
+	Camera* cameraRec = sceneHandler->getCurCamera();
+	Matrix cameraMat = cameraRec->viewMat;
 	std::cout << "Cur Camera Matrix:" << std::endl << cameraMat << std::endl;
 
 	// 投影变换 // ERROR: 投影变换未达到预期效果
-	Matrix projectionMat = Matrix::getPersProjection(-1, 1, 1., 45);
+	// 2.27 更新: 依然没有达到预期效果
+	//Matrix projectionMat = Matrix::getPersProjection(-1, 1, 1., 45);
+	Matrix projectionMat = cameraRec->projectionMat;
 
 	// 视口变换矩阵
 	Matrix viewMat = Matrix::getViewport(0, 0, width, height);
@@ -56,36 +59,6 @@ void RenderHandler::renderModel(Model* model, float width, float height, const S
 	}
 }
 
-void RenderHandler::renderModel2(float width, float height, const SDL_PixelFormat* format) {
-	Vec3f light_dir(0, 0, -1);
-
-	Model* model = sceneHandler->getCurModel();
-
-	// 模型变换
-	Matrix translate = Matrix::getTranslate(0, 0, 0);
-	Matrix rotation = Matrix::getRotationY(0);
-	Matrix zoom = Matrix::getZoom(1.);
-	Matrix modelTrans = zoom * rotation * translate;
-
-	// 摄像机变换
-	Matrix cameraMat = sceneHandler->getCurCamera()->getCameraTrans();
-	std::cout << "Cur Camera Matrix:" << std::endl << cameraMat << std::endl;
-
-	// 投影变换 // ERROR: 投影变换未达到预期效果
-	Matrix projectionMat = Matrix::getPersProjection(-1, 1, 1., 45);
-
-	// 视口变换矩阵
-	Matrix viewMat = Matrix::getViewport(0, 0, width, height);
-
-	// 着色器
-	BlinnPhongShader shader = BlinnPhongShader(model, modelTrans, cameraMat, projectionMat, viewMat, light_dir);
-
-	for (int i = 0; i < model->nfaces(); i++) {
-		Vec3f* triangleV;
-		shader.vertex(i, triangleV);
-		Rasterization::triangle(triangleV, shader, zBuffer, pixelBuffer, format);
-	}
-}
 
 void RenderHandler::renderAllModel(float width, float height, const SDL_PixelFormat* format) {
 	std::vector<Model*> rec = sceneHandler->getAllModel();

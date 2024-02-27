@@ -24,7 +24,6 @@ public:
 
 	// 渲染指定模型
 	void renderModel(Model* model, float width, float height, const SDL_PixelFormat* format);
-	void renderModel2(float width, float height, const SDL_PixelFormat* format);
 	void renderAllModel(float width, float height, const SDL_PixelFormat* format);
 
 	// 管理屏幕像素缓冲区

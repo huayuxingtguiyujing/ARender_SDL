@@ -116,6 +116,8 @@ public:
 	// 投影变换
 	static Matrix getPersProjection(float znear, float zfar, float aspectRatio, float eyeAngle);
 
+	static Matrix getPersProjection2(float fov, float AR, float near, float far);
+
 	// 获取视口变换矩阵
 	static Matrix getViewport(int x, int y, int w, int h);
 
