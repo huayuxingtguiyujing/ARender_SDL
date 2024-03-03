@@ -20,3 +20,11 @@ private:
 
 };
 
+struct Light {
+	Vec3f startPos;
+	Vec3f lightDir;
+
+	Light();
+	Light(Vec3f s, Vec3f l);
+	~Light();
+};
