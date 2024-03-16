@@ -6,6 +6,7 @@
 
 #include <vector>
 #include <queue>
+#include "math.h"
 
 class SceneHandler
 {
@@ -19,6 +20,8 @@ public:
 	Scene* getCurScene();
 	Model* getCurModel();
 	std::vector<Model*> getAllModel();
+	std::vector<Object*> getAllObject();
+	std::vector<Light*> getAllLights();
 	Camera* getCurCamera();
 
 	void switchScene(int index);
@@ -34,5 +37,8 @@ private :
 	std::vector<Model*> visibleModels;
 	std::vector<Model*> allSceneModels;
 
+	// 场景中的简单模型 (圆形 三角形 平面等)
+	std::vector<Object*> allSceneObjects;
+	std::vector<Light*> allSceneLights;
 };
 

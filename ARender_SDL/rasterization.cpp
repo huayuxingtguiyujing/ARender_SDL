@@ -261,13 +261,13 @@ void Rasterization::triangle(Vec3f* triangleV, IShader &shader, Buffer<float>* z
 	BoundingBox boundBox = BoundingBox(triangleV, DisplayHandler::screenWidth, DisplayHandler::screenHeight);
 
 	Vec3f P;
-	//std::vector<Vec3f> rec = std::vector<Vec3f>{ triangleV[0], triangleV[1], triangleV[2] };
-
 	Color color;
 
 	// 遍历边界盒 设置每个像素
+#pragma omp parallel for 
 	for (P.x = boundBox.minX; P.x <= boundBox.maxX; P.x++) {
 		for (P.y = boundBox.minY; P.y <= boundBox.maxY; P.y++) {
+			
 			// 获取重心坐标 [alpha, beta, gama]
 			Vec3f bc_screen = getBarycentric(triangleV[0], triangleV[1], triangleV[2], P);
 			P.z = 0;
@@ -280,12 +280,15 @@ void Rasterization::triangle(Vec3f* triangleV, IShader &shader, Buffer<float>* z
 			if (bc_screen.x < -1e-1 || bc_screen.y < -1e-1 || bc_screen.z < -1e-1) {
 				continue;
 			}
+			//std::cout << "test" << std::endl;
 			/*if (bc_screen.x < -1e-2 || bc_screen.y < -1e-2 || bc_screen.z < -1e-2) {
 				continue;
 			}*/
 			if (z_interpolated < (*zBuffer)(P.x, P.y)) {
 				continue;
 			}
+
+			//std::cout << "test" << std::endl;
 
 			// 可见性检测
 			bool visible = shader.fragment(bc_screen, color);

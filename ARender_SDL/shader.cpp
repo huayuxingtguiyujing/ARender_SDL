@@ -109,7 +109,7 @@ void BlinnPhongShader::vertex(int index, Vec3f*& triangleV)  {
 		// 获取每个顶点的uv坐标
 		uv_coords[j] = model->texels(faceTexture[j]);
 		// 计算世界坐标 屏幕坐标
-		world_coords[j] = MatrixToVec(CameraTrans * ModelTrans * VecToMatrix(v));
+		world_coords[j] = MatrixToVec(ProjectionTrans * CameraTrans * ModelTrans * VecToMatrix(v));
 		screen_coords[j] = MatrixToVec(ViewTrans * VecToMatrix(world_coords[j]));
 	}
 	triangleV = screen_coords;

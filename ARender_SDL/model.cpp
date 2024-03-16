@@ -9,7 +9,7 @@ Model::Model(std::string modelName, std::string sceneName) : verts_(), facesVert
     // 加载纹理
     diffuseTexture = TGAImage();
     TGAImage::load_texture(texturePath, getStrFileName(modelName) + "_diffuse.tga", diffuseTexture);
-    //std::cout << "The texture condition: " << textureTest2.get_width() << ", " << textureTest2.get_height() << std::endl;
+    std::cout << "漫反射纹理加载结果: " << diffuseTexture.get_width() << ", " << diffuseTexture.get_height() << std::endl;
 
     // 打开模型文件
     std::ifstream in;
@@ -95,7 +95,7 @@ Model::Model(std::string modelName, std::string sceneName) : verts_(), facesVert
         }
         
     }
-    std::cerr << "vertex num: " << verts_.size() << ", face num: " << facesVertex_.size() 
+    std::cerr << "模型加载完毕, vertex num: " << verts_.size() << ", face num: " << facesVertex_.size() 
         << "face vertexs" << facesVertex_.size() << "face uv: " << facesTexture_.size() << ", face normals: " << facesNormal_.size() << std::endl;
 }
 

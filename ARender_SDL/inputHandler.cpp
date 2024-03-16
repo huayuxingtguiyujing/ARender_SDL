@@ -85,6 +85,16 @@ void InputHandler::processInputEvent(SDL_Event* event, bool& done, unsigned int 
 			sceneHandler->getCurCamera()->RotateCamera(0, 5, 0);
 			break;
 
+			// 缩放视角
+		case SDLK_z:
+			std::cout << "按下了SDLK z" << std::endl;
+			sceneHandler->getCurCamera()->MoveCamera(0, 0, 1.f);
+			break;
+		case SDLK_c:
+			std::cout << "按下了SDLK c" << std::endl;
+			sceneHandler->getCurCamera()->MoveCamera(0, 0, -1.f);
+			break;
+
 			// reset
 		case SDLK_r:
 			break;
@@ -92,15 +102,19 @@ void InputHandler::processInputEvent(SDL_Event* event, bool& done, unsigned int 
 			// 切换场景
 		case SDLK_1:
 			std::cout << "按下了SDLK 1" << std::endl;
-
+			sceneHandler->switchScene(1);
 			break;
 		case SDLK_2:
 			std::cout << "按下了SDLK 2" << std::endl;
-
+			sceneHandler->switchScene(2);
 			break;
 		case SDLK_3:
 			std::cout << "按下了SDLK 3" << std::endl;
-
+			sceneHandler->switchScene(3);
+			break;
+		case SDLK_4:
+			std::cout << "按下了SDLK 3" << std::endl;
+			sceneHandler->switchScene(4);
 			break;
 
 			// 退出程序
