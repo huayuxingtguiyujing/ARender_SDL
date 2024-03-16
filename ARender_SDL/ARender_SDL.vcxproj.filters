@@ -102,6 +102,9 @@
     <ClCompile Include="tgaImage.cpp">
       <Filter>源文件\Shader</Filter>
     </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>源文件\Graphic</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="apllication.h">
@@ -160,6 +163,9 @@
     </ClInclude>
     <ClInclude Include="tgaImage.h">
       <Filter>头文件\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>头文件\Graphic</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

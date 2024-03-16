@@ -38,6 +38,9 @@ template <class t> struct Vec3 {
 
 	// 矢量基本运算
 	inline Vec3<t> operator ^(const Vec3<t>& v) const { return Vec3<t>(y * v.z - z * v.y, z * v.x - x * v.z, x * v.y - y * v.x); }
+	inline Vec3<t> operator ^(const float powIndex) const {
+		return Vec3<t>( std::powf(x, powIndex), std::powf(y, powIndex), std::powf(z, powIndex));
+	}
 	inline Vec3<t> operator +(const Vec3<t>& v) const { return Vec3<t>(x + v.x, y + v.y, z + v.z); }
 	inline Vec3<t> operator -(const Vec3<t>& v) const { return Vec3<t>(x - v.x, y - v.y, z - v.z); }
 	inline Vec3<t> operator *(float f)          const { return Vec3<t>(x * f, y * f, z * f); }
@@ -114,7 +117,7 @@ public:
 	static Matrix getCameraTrans();
 
 	// 投影变换
-	static Matrix getPersProjection(float znear, float zfar, float aspectRatio, float eyeAngle);
+	static auto getPersProjection(float znear, float zfar, float aspectRatio, float eyeAngle) ->Matrix;
 
 	static Matrix getPersProjection2(float fov, float AR, float near, float far);
 

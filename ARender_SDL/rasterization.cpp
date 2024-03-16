@@ -277,7 +277,7 @@ void Rasterization::triangle(Vec3f* triangleV, IShader &shader, Buffer<float>* z
 			// 跳过条件: 1.不在三角形内; 2.zbuffer检测未通过
 			// NOTICE: 黑边问题已经解决，原因其实很简单，计算重心坐标时，由于精度丢失或者其他原因
 			// 在边缘上的点的重心坐标值小于0（实际应该等于0），故而未能渲染到
-			if (bc_screen.x < -1e-1 || bc_screen.y < -1e-1 || bc_screen.z < -1e-1) {
+			if (bc_screen.x < -0.1 || bc_screen.y < -0.1 || bc_screen.z < -0.1) {
 				continue;
 			}
 			//std::cout << "test" << std::endl;

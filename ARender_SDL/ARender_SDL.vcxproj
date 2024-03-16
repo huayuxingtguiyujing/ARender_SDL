@@ -145,6 +145,7 @@
     <ClCompile Include="math.cpp" />
     <ClCompile Include="mesh.cpp" />
     <ClCompile Include="model.cpp" />
+    <ClCompile Include="object.cpp" />
     <ClCompile Include="rasterization.cpp" />
     <ClCompile Include="renderHandler.cpp" />
     <ClCompile Include="scene.cpp" />
@@ -165,6 +166,7 @@
     <ClInclude Include="math.h" />
     <ClInclude Include="mesh.h" />
     <ClInclude Include="model.h" />
+    <ClInclude Include="object.h" />
     <ClInclude Include="rasterization.h" />
     <ClInclude Include="renderHandler.h" />
     <ClInclude Include="resource.h" />

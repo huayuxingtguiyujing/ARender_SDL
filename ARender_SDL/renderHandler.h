@@ -22,7 +22,7 @@ public:
 	bool initRenderHanlder(int w, int h, SceneHandler* sceneHandler);
 	void endRenderHandler();
 
-	// 渲染指定模型
+	// 渲染场景模型 -光栅化
 	void renderModel(Model* model, float width, float height, const SDL_PixelFormat* format);
 	void renderAllModel(float width, float height, const SDL_PixelFormat* format);
 

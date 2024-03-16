@@ -51,7 +51,7 @@ public:
 	// 建立摄像机视锥
 	Frustrum cameraFrustrum;
 
-	Camera() : up(Vec3f(0, 1, 0)), gazeDir(Vec3f(0, 0, -1)), right(Vec3f(1, 0, 0)), position(Vec3f(0,0,-8)){
+	Camera() : up(Vec3f(0, 1, 0)), gazeDir(Vec3f(0, 0, -1)), right(Vec3f(1, 0, 0)), position(Vec3f(0,0,-5)){
 		viewMat = getCameraTrans();
 		
 		cameraFrustrum = Frustrum(DisplayHandler::getScreenRatio());
