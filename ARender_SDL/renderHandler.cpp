@@ -65,10 +65,6 @@ void RenderHandler::renderAllModel(float width, float height, const SDL_PixelFor
 	}
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> fd8a9d3cd7bece7f7560f0b9f8b3fa741ba7a417
 // 渲染场景的Object (通过ray tracing 而非光栅化)
 void RenderHandler::renderObject(Object* object, float width, float height, const SDL_PixelFormat* format) {
 }
@@ -91,11 +87,9 @@ bool RenderHandler::isIntersect(const Light* light, double& intersection, int& o
 	return intersection < maxNum;
 }
 
-<<<<<<< HEAD
-bool RenderHandler::tracing(const Light* lookDir, const Light* light, int reflectNum, float& diffuse, float& specular, std::vector<Object*> recObj) {
-=======
+
 bool RenderHandler::tracing(const Light* lookDir, const Light* light, int reflectNum, float & diffuse, float & specular, std::vector<Object*> recObj) {
->>>>>>> fd8a9d3cd7bece7f7560f0b9f8b3fa741ba7a417
+
 	// 不能一直执行反射
 	reflectNum--;
 	if (reflectNum <= 0) {
@@ -141,22 +135,15 @@ bool RenderHandler::tracing(const Light* lookDir, const Light* light, int reflec
 void RenderHandler::renderAllObj(float width, float height, const SDL_PixelFormat* format) {
 	std::vector<Object*> recObj = sceneHandler->getAllObject();
 	std::vector<Light*> recLight = sceneHandler->getAllLights();
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> fd8a9d3cd7bece7f7560f0b9f8b3fa741ba7a417
 	// 光线的起始点
 	Vec3f eyePos = Vec3f(10, 10, -5000);
 
 	int screenWidth = DisplayHandler::screenWidth;
 	int screenHeight = DisplayHandler::screenHeight;
 
-<<<<<<< HEAD
 	// TODO: 写个BVH树，并应用到加速求交
 
-=======
->>>>>>> fd8a9d3cd7bece7f7560f0b9f8b3fa741ba7a417
 	// 遍历每个像素点
 	for (int i = 0; i < screenWidth; i++) {
 		for (int j = 0; j < screenHeight; j++) {
@@ -170,11 +157,7 @@ void RenderHandler::renderAllObj(float width, float height, const SDL_PixelForma
 
 				// whitted style ray tracing
 				tracing(lookAt, recLight[k], 3, diffuse, specular, recObj);
-<<<<<<< HEAD
 
-=======
-				
->>>>>>> fd8a9d3cd7bece7f7560f0b9f8b3fa741ba7a417
 				delete lookAt;
 			}
 
@@ -187,10 +170,7 @@ void RenderHandler::renderAllObj(float width, float height, const SDL_PixelForma
 	std::cout << "ray tracing object: " << recObj.size() << std::endl;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> fd8a9d3cd7bece7f7560f0b9f8b3fa741ba7a417
 // 管理屏幕像素缓冲区
 bool RenderHandler::createBuffers(int w, int h) {
 	zBuffer = new Buffer<float>(w, h, new float[w * h]);

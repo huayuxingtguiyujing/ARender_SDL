@@ -17,17 +17,11 @@ Camera* Scene::getCamera() {
 }
 
 
-<<<<<<< HEAD
 // Light 
 Light::Light() {
 	startPos = Vec3f(0, 0, 0);
 	lightDir = Vec3f(0, 0, 0);
-=======
-// Light -¹âÕÕ
-Light::Light() {
-	startPos = Vec3f(0,0,0);
-	lightDir = Vec3f(0,0,0);
->>>>>>> fd8a9d3cd7bece7f7560f0b9f8b3fa741ba7a417
+
 }
 
 Light::Light(Vec3f s, Vec3f l) {
@@ -37,8 +31,4 @@ Light::Light(Vec3f s, Vec3f l) {
 
 Light::~Light() {
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> fd8a9d3cd7bece7f7560f0b9f8b3fa741ba7a417

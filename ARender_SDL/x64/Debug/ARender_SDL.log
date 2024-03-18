@@ -1,11 +1,386 @@
-<<<<<<< HEAD
-﻿  inputHandler.cpp
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(103,35): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(104,37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-=======
-﻿  sceneHandler.cpp
+﻿  apllication.cpp
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: “M_PI”: 宏重定义
 D:\C_SDK\SDL2-devel-2.28.5-VC\SDL2-2.28.5\include\SDL_stdinc.h(614,1): message : 参见“M_PI”的前一个定义
-C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\sceneHandler.cpp(63,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
->>>>>>> fd8a9d3cd7bece7f7560f0b9f8b3fa741ba7a417
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(103,35): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(104,37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\apllication.cpp(45,27): warning C4244: “=”: 从“Uint32”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\apllication.cpp(48,41): warning C4244: “参数”: 从“float”转换到“unsigned int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\apllication.cpp(74,25): warning C4244: “=”: 从“Uint32”转换到“float”，可能丢失数据
+  buffer.cpp
+  camera.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: “M_PI”: 宏重定义
+D:\C_SDK\SDL2-devel-2.28.5-VC\SDL2-2.28.5\include\SDL_stdinc.h(614,1): message : 参见“M_PI”的前一个定义
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(103,35): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(104,37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\camera.cpp(71,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  color.cpp
+  displayHandler.cpp
+  geometry.cpp
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\geometry.cpp(120,29): warning C4305: “*=”: 从“double”到“float”截断
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\geometry.cpp(130,29): warning C4305: “*=”: 从“double”到“float”截断
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\geometry.cpp(140,29): warning C4305: “*=”: 从“double”到“float”截断
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\geometry.cpp(160,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\geometry.cpp(190,29): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  inputHandler.cpp
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(103,35): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(104,37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: “M_PI”: 宏重定义
+D:\C_SDK\SDL2-devel-2.28.5-VC\SDL2-2.28.5\include\SDL_stdinc.h(614,1): message : 参见“M_PI”的前一个定义
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(103,35): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(104,37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  material.cpp
+  math.cpp
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\Math.h(103,35): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\Math.h(104,37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.cpp(6,10): warning C4305: “=”: 从“double”到“float”截断
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.cpp(7,10): warning C4305: “=”: 从“double”到“float”截断
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.cpp(8,20): warning C4305: “=”: 从“double”到“float”截断
+  mesh.cpp
+  model.cpp
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\model.cpp(25,10): warning C4101: “trash”: 未引用的局部变量
+  object.cpp
+  rasterization.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: “M_PI”: 宏重定义
+D:\C_SDK\SDL2-devel-2.28.5-VC\SDL2-2.28.5\include\SDL_stdinc.h(614,1): message : 参见“M_PI”的前一个定义
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(103,35): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(104,37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(11,37): warning C4305: “+=”: 从“double”到“float”截断
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(12,9): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(13,9): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(19,27): warning C4244: “参数”: 从“t”转换到“int”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(19,21): warning C4244: “参数”: 从“t”转换到“int”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(19,15): warning C4244: “参数”: 从“t”转换到“int”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(19,9): warning C4244: “参数”: 从“t”转换到“int”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(77,55): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(77,48): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(115,62): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(115,55): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(124,82): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(124,61): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(124,40): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(128,20): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(130,18): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(131,17): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(184,64): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(184,55): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(185,37): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(185,28): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(250,31): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(250,28): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(250,25): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(251,26): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(251,21): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(287,42): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(287,37): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(296,22): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(296,17): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(297,26): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(297,21): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(318,99): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(318,94): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(322,21): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(322,16): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(323,25): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(323,20): warning C4244: “参数”: 从“t”转换到“size_t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+  renderHandler.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: “M_PI”: 宏重定义
+D:\C_SDK\SDL2-devel-2.28.5-VC\SDL2-2.28.5\include\SDL_stdinc.h(614,1): message : 参见“M_PI”的前一个定义
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(103,35): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(104,37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(46,52): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(46,45): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(105,58): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(115,20): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(117,73): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(154,29): warning C4244: “参数”: 从“int”转换到“t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(154,26): warning C4244: “参数”: 从“int”转换到“t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(166,90): warning C4244: “参数”: 从“float”转换到“Uint8”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(166,73): warning C4244: “参数”: 从“float”转换到“Uint8”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(166,56): warning C4244: “参数”: 从“float”转换到“Uint8”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\buffer.h(30,29): warning C4244: “=”: 从“float”转换到“T”，可能丢失数据
+          with
+          [
+              T=Uint32
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\buffer.h(27,1): message : 在编译 类 模板 成员函数“void Buffer<Uint32>::clear(void)”时
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(210,20): message : 查看对正在编译的函数 模板 实例化“void Buffer<Uint32>::clear(void)”的引用
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(166,23): message : 查看对正在编译的 类 模板 实例化“Buffer<Uint32>”的引用
+  scene.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: “M_PI”: 宏重定义
+D:\C_SDK\SDL2-devel-2.28.5-VC\SDL2-2.28.5\include\SDL_stdinc.h(614,1): message : 参见“M_PI”的前一个定义
+  sceneHandler.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: “M_PI”: 宏重定义
+D:\C_SDK\SDL2-devel-2.28.5-VC\SDL2-2.28.5\include\SDL_stdinc.h(614,1): message : 参见“M_PI”的前一个定义
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(103,35): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(104,37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\sceneHandler.cpp(73,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  shader.cpp
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(103,35): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.h(104,37): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\shader.cpp(45,60): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\shader.cpp(45,43): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\shader.cpp(45,26): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\shader.cpp(74,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\shader.cpp(87,60): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\shader.cpp(87,43): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\shader.cpp(87,26): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\shader.cpp(126,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\shader.cpp(142,22): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\shader.cpp(142,19): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\shader.cpp(142,16): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+  texture.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: “M_PI”: 宏重定义
+D:\C_SDK\SDL2-devel-2.28.5-VC\SDL2-2.28.5\include\SDL_stdinc.h(614,1): message : 参见“M_PI”的前一个定义
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\texture.cpp(28,60): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\texture.cpp(120,14): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\texture.cpp(121,14): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\texture.cpp(144,14): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\texture.cpp(145,14): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+  tgaImage.cpp
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(294,11): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(295,11): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(302,40): warning C4244: “参数”: 从“unsigned int”转换到“t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(301,40): warning C4244: “参数”: 从“unsigned int”转换到“t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(300,49): warning C4244: “参数”: 从“unsigned int”转换到“t”，可能丢失数据
+          with
+          [
+              t=float
+          ]
+  正在运行 C/C++ 代码分析...
+  正在生成代码...
   ARender_SDL.vcxproj -> C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\x64\Debug\ARender_SDL.exe
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\apllication.cpp(3): warning C26495: 未初始化变量 Apllication::model。始终初始化成员变量(type.6)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\camera.cpp(58): warning C26495: 未初始化变量 Frustrum::fov。始终初始化成员变量(type.6)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\camera.cpp(62): warning C26495: 未初始化变量 Frustrum::nearH。始终初始化成员变量(type.6)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\camera.cpp(117): warning C26495: 未初始化变量 Plane::D。始终初始化成员变量(type.6)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\displayHandler.cpp(5): warning C26495: 未初始化变量 DisplayHandler::window。始终初始化成员变量(type.6)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\displayHandler.cpp(56): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\geometry.cpp(63): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\geometry.cpp(78): warning C26451: 算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\geometry.cpp(92): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\geometry.cpp(160): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\inputHandler.cpp(3): warning C26495: 未初始化变量 InputHandler::sceneHandler。始终初始化成员变量(type.6)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.cpp(45): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\math.cpp(46): warning C26451: 算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(184): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(184): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(185): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\rasterization.cpp(185): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(3): warning C26495: 未初始化变量 RenderHandler::sceneHandler。始终初始化成员变量(type.6)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(176): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(188): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(195): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(195): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(195): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(201): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(201): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\renderHandler.cpp(201): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\buffer.h(35): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\sceneHandler.cpp(3): warning C26495: 未初始化变量 SceneHandler::curScene。始终初始化成员变量(type.6)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\shader.cpp(52): warning C26495: 未初始化变量 GouraudShader::specular。始终初始化成员变量(type.6)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1050): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1050): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1057): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1057): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1057): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1064): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1064): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1064): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1064): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1211): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1230): warning C26451: 算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1230): warning C26451: 算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1769): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1769): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1770): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1770): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1819): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1819): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1819): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1826): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1826): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1827): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(1827): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(3021): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(3052): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(2966): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(2966): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(2966): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(2994): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(3089): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(3091): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(3091): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(3091): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(3586): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(3903): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(3926): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(3926): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(4738): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(4739): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(4740): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(4823): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(4891): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(4891): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(4891): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(4892): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(4892): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(4892): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(5712): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(5712): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(5713): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(5713): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(5713): warning C26451: 算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(5933): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(5933): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(6201): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(6201): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(6283): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(6295): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(6420): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(6420): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(6524): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(6524): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(6790): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(6791): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(6799): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(6800): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(6833): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(6833): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(6837): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(6960): warning C6262: 函数使用堆叠的 "35036" 字节。请考虑将一些数据移动到堆。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(6991): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(7007): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(7018): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(7018): warning C26451: 算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(7020): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(7045): warning C6262: 函数使用堆叠的 "34980" 字节。请考虑将一些数据移动到堆。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(7220): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(7220): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(7220): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(7277): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(7277): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(7277): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\stb_image.h(7277): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\texture.cpp(6): warning C26495: 未初始化变量 Texture::widthInTiles。始终初始化成员变量(type.6)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\texture.cpp(22): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\texture.cpp(22): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\texture.cpp(94): warning C6386: 写入 "tiledPixelData" 时缓冲区溢出。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\texture.cpp(75): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\texture.cpp(75): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(203): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(203): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(286): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(286): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(309): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(309): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(317): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(317): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(370): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(370): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(375): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\tgaImage.cpp(375): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。

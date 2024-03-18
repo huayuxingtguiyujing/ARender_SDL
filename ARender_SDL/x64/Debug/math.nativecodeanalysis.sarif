@@ -1,0 +1,149 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/math.cpp"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 13,
+                  "endLine": 45,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SphereObj::intersection",
+                  "decoratedName": "?intersection@SphereObj@@UEAANAEBU?$Vec3@M@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/math.cpp"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 14,
+                  "endLine": 46,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SphereObj::intersection",
+                  "decoratedName": "?intersection@SphereObj@@UEAANAEBU?$Vec3@M@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31947.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/math.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a8cf0e79cc3984b2285bd7d33b46e890df6a14950c33d55f369914578f0ec8c4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/laix/desktop/tasks/clearn/git_render_sdl/arender_sdl/arender_sdl/math.h"
+          },
+          "hashes": {
+            "sha-256": "9fcaccadc62962752109b8553630717093455aa15a98e77ae3db05e4a27eb355"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/laix/desktop/tasks/clearn/git_render_sdl/arender_sdl/arender_sdl/geometry.h"
+          },
+          "hashes": {
+            "sha-256": "620cb53be7fb204e19987863ae531a561073938a54a53b649dc462fffcaa912c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c_sdk/sdl2-devel-2.28.5-vc/sdl2-2.28.5/include/sdl_stdinc.h"
+          },
+          "hashes": {
+            "sha-256": "559e8ee6c5607971cd9000953f574c00265c8b67f59137089f4b60e4104e83d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c_sdk/sdl2-devel-2.28.5-vc/sdl2-2.28.5/include/sdl_config.h"
+          },
+          "hashes": {
+            "sha-256": "4860c759233673e2204c958ead4fb177be6a97cfcff1f1873975e1ef0a7f5059"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c_sdk/sdl2-devel-2.28.5-vc/sdl2-2.28.5/include/sdl_platform.h"
+          },
+          "hashes": {
+            "sha-256": "ca34f28f985b2cc3ecef79c64bdd0a2ecd63447c3ea96029d27713af9eadcc15"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c_sdk/sdl2-devel-2.28.5-vc/sdl2-2.28.5/include/begin_code.h"
+          },
+          "hashes": {
+            "sha-256": "9598e70462ae4224aea70b66de465396220c30f94756652c55346d43b13458c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c_sdk/sdl2-devel-2.28.5-vc/sdl2-2.28.5/include/close_code.h"
+          },
+          "hashes": {
+            "sha-256": "ff1f06c5cd46688a338973b3fec79b23b7743f2b438845a2f245997e3929d16c"
+          }
+        }
+      ]
+    }
+  ]
+}

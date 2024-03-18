@@ -20,10 +20,6 @@ private:
 
 };
 
-<<<<<<< HEAD
-
-=======
->>>>>>> fd8a9d3cd7bece7f7560f0b9f8b3fa741ba7a417
 struct Light {
 	Vec3f startPos;
 	Vec3f lightDir;

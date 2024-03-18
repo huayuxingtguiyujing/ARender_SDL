@@ -1,0 +1,3381 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1050,
+                  "startColumn": 24,
+                  "endLine": 1050,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__malloc_mad2",
+                  "decoratedName": "?stbi__malloc_mad2@@YAPEAXHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1050,
+                  "startColumn": 24,
+                  "endLine": 1050,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__malloc_mad2",
+                  "decoratedName": "?stbi__malloc_mad2@@YAPEAXHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1057,
+                  "startColumn": 24,
+                  "endLine": 1057,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__malloc_mad3",
+                  "decoratedName": "?stbi__malloc_mad3@@YAPEAXHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1057,
+                  "startColumn": 24,
+                  "endLine": 1057,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__malloc_mad3",
+                  "decoratedName": "?stbi__malloc_mad3@@YAPEAXHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1057,
+                  "startColumn": 24,
+                  "endLine": 1057,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__malloc_mad3",
+                  "decoratedName": "?stbi__malloc_mad3@@YAPEAXHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1064,
+                  "startColumn": 24,
+                  "endLine": 1064,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__malloc_mad4",
+                  "decoratedName": "?stbi__malloc_mad4@@YAPEAXHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1064,
+                  "startColumn": 24,
+                  "endLine": 1064,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__malloc_mad4",
+                  "decoratedName": "?stbi__malloc_mad4@@YAPEAXHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1064,
+                  "startColumn": 24,
+                  "endLine": 1064,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__malloc_mad4",
+                  "decoratedName": "?stbi__malloc_mad4@@YAPEAXHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1064,
+                  "startColumn": 24,
+                  "endLine": 1064,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__malloc_mad4",
+                  "decoratedName": "?stbi__malloc_mad4@@YAPEAXHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1211,
+                  "startColumn": 45,
+                  "endLine": 1211,
+                  "endColumn": 53
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_8_to_16",
+                  "decoratedName": "?stbi__convert_8_to_16@@YAPEAGPEAEHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1230,
+                  "startColumn": 32,
+                  "endLine": 1230,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__vertical_flip",
+                  "decoratedName": "?stbi__vertical_flip@@YAXPEAXHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1230,
+                  "startColumn": 32,
+                  "endLine": 1230,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__vertical_flip",
+                  "decoratedName": "?stbi__vertical_flip@@YAXPEAXHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1769,
+                  "startColumn": 36,
+                  "endLine": 1769,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format",
+                  "decoratedName": "?stbi__convert_format@@YAPEAEPEAEHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1769,
+                  "startColumn": 36,
+                  "endLine": 1769,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format",
+                  "decoratedName": "?stbi__convert_format@@YAPEAEPEAEHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1770,
+                  "startColumn": 36,
+                  "endLine": 1770,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format",
+                  "decoratedName": "?stbi__convert_format@@YAPEAEPEAEHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1770,
+                  "startColumn": 36,
+                  "endLine": 1770,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format",
+                  "decoratedName": "?stbi__convert_format@@YAPEAEPEAEHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1819,
+                  "startColumn": 41,
+                  "endLine": 1819,
+                  "endColumn": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format16",
+                  "decoratedName": "?stbi__convert_format16@@YAPEAGPEAGHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1819,
+                  "startColumn": 41,
+                  "endLine": 1819,
+                  "endColumn": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format16",
+                  "decoratedName": "?stbi__convert_format16@@YAPEAGPEAGHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1819,
+                  "startColumn": 41,
+                  "endLine": 1819,
+                  "endColumn": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format16",
+                  "decoratedName": "?stbi__convert_format16@@YAPEAGPEAGHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1826,
+                  "startColumn": 35,
+                  "endLine": 1826,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format16",
+                  "decoratedName": "?stbi__convert_format16@@YAPEAGPEAGHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1826,
+                  "startColumn": 35,
+                  "endLine": 1826,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format16",
+                  "decoratedName": "?stbi__convert_format16@@YAPEAGPEAGHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1827,
+                  "startColumn": 35,
+                  "endLine": 1827,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format16",
+                  "decoratedName": "?stbi__convert_format16@@YAPEAGPEAGHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1827,
+                  "startColumn": 35,
+                  "endLine": 1827,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format16",
+                  "decoratedName": "?stbi__convert_format16@@YAPEAGPEAGHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3021,
+                  "startColumn": 53,
+                  "endLine": 3021,
+                  "endColumn": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__parse_entropy_coded_data",
+                  "decoratedName": "?stbi__parse_entropy_coded_data@@YAHPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3052,
+                  "startColumn": 62,
+                  "endLine": 3052,
+                  "endColumn": 92
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__parse_entropy_coded_data",
+                  "decoratedName": "?stbi__parse_entropy_coded_data@@YAHPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 2966,
+                  "startColumn": 57,
+                  "endLine": 2966,
+                  "endColumn": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__parse_entropy_coded_data",
+                  "decoratedName": "?stbi__parse_entropy_coded_data@@YAHPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 2966,
+                  "startColumn": 57,
+                  "endLine": 2966,
+                  "endColumn": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__parse_entropy_coded_data",
+                  "decoratedName": "?stbi__parse_entropy_coded_data@@YAHPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 2966,
+                  "startColumn": 79,
+                  "endLine": 2966,
+                  "endColumn": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__parse_entropy_coded_data",
+                  "decoratedName": "?stbi__parse_entropy_coded_data@@YAHPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 2994,
+                  "startColumn": 66,
+                  "endLine": 2994,
+                  "endColumn": 84
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__parse_entropy_coded_data",
+                  "decoratedName": "?stbi__parse_entropy_coded_data@@YAHPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3089,
+                  "startColumn": 53,
+                  "endLine": 3089,
+                  "endColumn": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__jpeg_finish",
+                  "decoratedName": "?stbi__jpeg_finish@@YAXPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3091,
+                  "startColumn": 57,
+                  "endLine": 3091,
+                  "endColumn": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__jpeg_finish",
+                  "decoratedName": "?stbi__jpeg_finish@@YAXPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3091,
+                  "startColumn": 57,
+                  "endLine": 3091,
+                  "endColumn": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__jpeg_finish",
+                  "decoratedName": "?stbi__jpeg_finish@@YAXPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3091,
+                  "startColumn": 79,
+                  "endLine": 3091,
+                  "endColumn": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__jpeg_finish",
+                  "decoratedName": "?stbi__jpeg_finish@@YAXPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3586,
+                  "startColumn": 43,
+                  "endLine": 3586,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__resample_row_hv_2_simd",
+                  "decoratedName": "?stbi__resample_row_hv_2_simd@@YAPEAEPEAE00HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3903,
+                  "startColumn": 60,
+                  "endLine": 3903,
+                  "endColumn": 74
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "load_jpeg_image",
+                  "decoratedName": "?load_jpeg_image@@YAPEAEPEAUstbi__jpeg@@PEAH11H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3926,
+                  "startColumn": 34,
+                  "endLine": 3926,
+                  "endColumn": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "load_jpeg_image",
+                  "decoratedName": "?load_jpeg_image@@YAPEAEPEAUstbi__jpeg@@PEAH11H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3926,
+                  "startColumn": 34,
+                  "endLine": 3926,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "load_jpeg_image",
+                  "decoratedName": "?load_jpeg_image@@YAPEAEPEAUstbi__jpeg@@PEAH11H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4738,
+                  "startColumn": 36,
+                  "endLine": 4738,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image_raw",
+                  "decoratedName": "?stbi__create_png_image_raw@@YAHPEAUstbi__png@@PEAEIHIIHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4739,
+                  "startColumn": 38,
+                  "endLine": 4739,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image_raw",
+                  "decoratedName": "?stbi__create_png_image_raw@@YAHPEAUstbi__png@@PEAEIHIIHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4740,
+                  "startColumn": 32,
+                  "endLine": 4740,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image_raw",
+                  "decoratedName": "?stbi__create_png_image_raw@@YAHPEAUstbi__png@@PEAEIHIIHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4823,
+                  "startColumn": 31,
+                  "endLine": 4823,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image_raw",
+                  "decoratedName": "?stbi__create_png_image_raw@@YAHPEAUstbi__png@@PEAEIHIIHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4891,
+                  "startColumn": 31,
+                  "endLine": 4891,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image",
+                  "decoratedName": "?stbi__create_png_image@@YAHPEAUstbi__png@@PEAEIHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4891,
+                  "startColumn": 31,
+                  "endLine": 4891,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image",
+                  "decoratedName": "?stbi__create_png_image@@YAHPEAUstbi__png@@PEAEIHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4891,
+                  "startColumn": 61,
+                  "endLine": 4891,
+                  "endColumn": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image",
+                  "decoratedName": "?stbi__create_png_image@@YAHPEAUstbi__png@@PEAEIHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4892,
+                  "startColumn": 33,
+                  "endLine": 4892,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image",
+                  "decoratedName": "?stbi__create_png_image@@YAHPEAUstbi__png@@PEAEIHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4892,
+                  "startColumn": 33,
+                  "endLine": 4892,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image",
+                  "decoratedName": "?stbi__create_png_image@@YAHPEAUstbi__png@@PEAEIHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4892,
+                  "startColumn": 33,
+                  "endLine": 4892,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image",
+                  "decoratedName": "?stbi__create_png_image@@YAHPEAUstbi__png@@PEAEIHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 5712,
+                  "startColumn": 35,
+                  "endLine": 5712,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__bmp_load",
+                  "decoratedName": "?stbi__bmp_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 5712,
+                  "startColumn": 35,
+                  "endLine": 5712,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__bmp_load",
+                  "decoratedName": "?stbi__bmp_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 5713,
+                  "startColumn": 31,
+                  "endLine": 5713,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__bmp_load",
+                  "decoratedName": "?stbi__bmp_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 5713,
+                  "startColumn": 31,
+                  "endLine": 5713,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__bmp_load",
+                  "decoratedName": "?stbi__bmp_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 5713,
+                  "startColumn": 31,
+                  "endLine": 5713,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__bmp_load",
+                  "decoratedName": "?stbi__bmp_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 5933,
+                  "startColumn": 40,
+                  "endLine": 5933,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__tga_load",
+                  "decoratedName": "?stbi__tga_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 5933,
+                  "startColumn": 40,
+                  "endLine": 5933,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__tga_load",
+                  "decoratedName": "?stbi__tga_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6201,
+                  "startColumn": 38,
+                  "endLine": 6201,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__psd_load",
+                  "decoratedName": "?stbi__psd_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6201,
+                  "startColumn": 38,
+                  "endLine": 6201,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__psd_load",
+                  "decoratedName": "?stbi__psd_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6283,
+                  "startColumn": 58,
+                  "endLine": 6283,
+                  "endColumn": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__psd_load",
+                  "decoratedName": "?stbi__psd_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6295,
+                  "startColumn": 42,
+                  "endLine": 6295,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__psd_load",
+                  "decoratedName": "?stbi__psd_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6420,
+                  "startColumn": 33,
+                  "endLine": 6420,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__pic_load_core",
+                  "decoratedName": "?stbi__pic_load_core@@YAPEAEPEAUstbi__context@@HHPEAHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6420,
+                  "startColumn": 33,
+                  "endLine": 6420,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__pic_load_core",
+                  "decoratedName": "?stbi__pic_load_core@@YAPEAEPEAUstbi__context@@HHPEAHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6524,
+                  "startColumn": 25,
+                  "endLine": 6524,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__pic_load",
+                  "decoratedName": "?stbi__pic_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6524,
+                  "startColumn": 25,
+                  "endLine": 6524,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__pic_load",
+                  "decoratedName": "?stbi__pic_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6790,
+                  "startColumn": 41,
+                  "endLine": 6790,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__gif_load_next",
+                  "decoratedName": "?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6791,
+                  "startColumn": 48,
+                  "endLine": 6791,
+                  "endColumn": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__gif_load_next",
+                  "decoratedName": "?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6799,
+                  "startColumn": 28,
+                  "endLine": 6799,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__gif_load_next",
+                  "decoratedName": "?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6800,
+                  "startColumn": 35,
+                  "endLine": 6800,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__gif_load_next",
+                  "decoratedName": "?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6833,
+                  "startColumn": 38,
+                  "endLine": 6833,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__gif_load_next",
+                  "decoratedName": "?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6833,
+                  "startColumn": 38,
+                  "endLine": 6833,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__gif_load_next",
+                  "decoratedName": "?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6837,
+                  "startColumn": 30,
+                  "endLine": 6837,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__gif_load_next",
+                  "decoratedName": "?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6262",
+          "message": {
+            "text": "函数使用堆叠的 \"35036\" 字节。请考虑将一些数据移动到堆。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6960,
+                  "startColumn": 14,
+                  "endLine": 6960,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__load_gif_main",
+                  "decoratedName": "?stbi__load_gif_main@@YAPEAXPEAUstbi__context@@PEAPEAHPEAH222H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6991,
+                  "startColumn": 39,
+                  "endLine": 6991,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__load_gif_main",
+                  "decoratedName": "?stbi__load_gif_main@@YAPEAXPEAUstbi__context@@PEAPEAHPEAH222H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7007,
+                  "startColumn": 46,
+                  "endLine": 7007,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__load_gif_main",
+                  "decoratedName": "?stbi__load_gif_main@@YAPEAXPEAUstbi__context@@PEAPEAHPEAH222H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7018,
+                  "startColumn": 29,
+                  "endLine": 7018,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__load_gif_main",
+                  "decoratedName": "?stbi__load_gif_main@@YAPEAXPEAUstbi__context@@PEAPEAHPEAH222H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7018,
+                  "startColumn": 29,
+                  "endLine": 7018,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__load_gif_main",
+                  "decoratedName": "?stbi__load_gif_main@@YAPEAXPEAUstbi__context@@PEAPEAHPEAH222H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7020,
+                  "startColumn": 33,
+                  "endLine": 7020,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__load_gif_main",
+                  "decoratedName": "?stbi__load_gif_main@@YAPEAXPEAUstbi__context@@PEAPEAHPEAH222H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6262",
+          "message": {
+            "text": "函数使用堆叠的 \"34980\" 字节。请考虑将一些数据移动到堆。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7045,
+                  "startColumn": 14,
+                  "endLine": 7045,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__gif_load",
+                  "decoratedName": "?stbi__gif_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7220,
+                  "startColumn": 42,
+                  "endLine": 7220,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__hdr_load",
+                  "decoratedName": "?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7220,
+                  "startColumn": 42,
+                  "endLine": 7220,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__hdr_load",
+                  "decoratedName": "?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7220,
+                  "startColumn": 65,
+                  "endLine": 7220,
+                  "endColumn": 69
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__hdr_load",
+                  "decoratedName": "?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7277,
+                  "startColumn": 41,
+                  "endLine": 7277,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__hdr_load",
+                  "decoratedName": "?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7277,
+                  "startColumn": 41,
+                  "endLine": 7277,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__hdr_load",
+                  "decoratedName": "?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7277,
+                  "startColumn": 41,
+                  "endLine": 7277,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__hdr_load",
+                  "decoratedName": "?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7277,
+                  "startColumn": 75,
+                  "endLine": 7277,
+                  "endColumn": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__hdr_load",
+                  "decoratedName": "?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Texture::widthInTiles。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 10,
+                  "endLine": 6,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Texture::{ctor}",
+                  "decoratedName": "??0Texture@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Texture::widthInTiles"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Texture::height。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 10,
+                  "endLine": 6,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Texture::{ctor}",
+                  "decoratedName": "??0Texture@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Texture::height"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Texture::pixelData。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 10,
+                  "endLine": 6,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Texture::{ctor}",
+                  "decoratedName": "??0Texture@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Texture::pixelData"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Texture::channels。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 10,
+                  "endLine": 6,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Texture::{ctor}",
+                  "decoratedName": "??0Texture@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Texture::channels"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Texture::width。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 10,
+                  "endLine": 6,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Texture::{ctor}",
+                  "decoratedName": "??0Texture@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Texture::width"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 27,
+                  "endLine": 22,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Texture::{ctor}",
+                  "decoratedName": "??0Texture@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 27,
+                  "endLine": 22,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Texture::{ctor}",
+                  "decoratedName": "??0Texture@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "写入 \"tiledPixelData\" 时缓冲区溢出。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                },
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 25,
+                  "endLine": 94,
+                  "endColumn": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Texture::tileData",
+                  "decoratedName": "?tileData@Texture@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 75,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "“tiledPixelData”是一个 1 元素数组(4 字节)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 77,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 82,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 82,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“tileRow<tileNumW”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 39
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“tileCol<tileNumH”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 59
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“tilePixelHeight<tileH”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 87,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 61
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“tilePixelWidth<tileW”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“pC<channels”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 52
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 96,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 97,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "“tiledIndex”可能等于 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 53
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "退出此循环(“pC<channels”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 70
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 61
+                          }
+                        },
+                        "message": {
+                          "text": "退出此循环(“tilePixelWidth<tileW”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 68
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 59
+                          }
+                        },
+                        "message": {
+                          "text": "退出此循环(“tilePixelHeight<tileH”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 51
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 39
+                          }
+                        },
+                        "message": {
+                          "text": "退出此循环(“tileCol<tileNumH”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 82,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 82,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "继续此循环(假定“tileRow<tileNumW”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 39
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“tileCol<tileNumH”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 59
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“tilePixelHeight<tileH”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 87,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 61
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“tilePixelWidth<tileW”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“pC<channels”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 52
+                          }
+                        },
+                        "message": {
+                          "text": "写入到“tiledPixelData[1]”无效(可写范围是 0 到 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                },
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 39,
+                  "endLine": 75,
+                  "endColumn": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Texture::tileData",
+                  "decoratedName": "?tileData@Texture@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+                },
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 39,
+                  "endLine": 75,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Texture::tileData",
+                  "decoratedName": "?tileData@Texture@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31947.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/stb_image.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "c54b15a689e6a1f32c75e2ec23afa442e3e0e37e894b73c1974d08679b20dd5c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/LaiX/Desktop/tasks/CLearn/Git_Render_SDL/ARender_SDL/ARender_SDL/texture.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "acfd136076acf64aaf3cfd08771d5b987321ce65883b671463be5465f284e8bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/laix/desktop/tasks/clearn/git_render_sdl/arender_sdl/arender_sdl/texture.h"
+          },
+          "hashes": {
+            "sha-256": "9b1635c0be57890df070244571b6a5b79e95b86c53c0264b55fb775062c5e7c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/laix/desktop/tasks/clearn/git_render_sdl/arender_sdl/arender_sdl/geometry.h"
+          },
+          "hashes": {
+            "sha-256": "620cb53be7fb204e19987863ae531a561073938a54a53b649dc462fffcaa912c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c_sdk/sdl2-devel-2.28.5-vc/sdl2-2.28.5/include/sdl_stdinc.h"
+          },
+          "hashes": {
+            "sha-256": "559e8ee6c5607971cd9000953f574c00265c8b67f59137089f4b60e4104e83d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c_sdk/sdl2-devel-2.28.5-vc/sdl2-2.28.5/include/sdl_config.h"
+          },
+          "hashes": {
+            "sha-256": "4860c759233673e2204c958ead4fb177be6a97cfcff1f1873975e1ef0a7f5059"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c_sdk/sdl2-devel-2.28.5-vc/sdl2-2.28.5/include/sdl_platform.h"
+          },
+          "hashes": {
+            "sha-256": "ca34f28f985b2cc3ecef79c64bdd0a2ecd63447c3ea96029d27713af9eadcc15"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c_sdk/sdl2-devel-2.28.5-vc/sdl2-2.28.5/include/begin_code.h"
+          },
+          "hashes": {
+            "sha-256": "9598e70462ae4224aea70b66de465396220c30f94756652c55346d43b13458c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c_sdk/sdl2-devel-2.28.5-vc/sdl2-2.28.5/include/close_code.h"
+          },
+          "hashes": {
+            "sha-256": "ff1f06c5cd46688a338973b3fec79b23b7743f2b438845a2f245997e3929d16c"
+          }
+        }
+      ]
+    }
+  ]
+}

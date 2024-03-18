@@ -1,0 +1,2 @@
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\x64\Debug\ARender_SDL.exe.lastcodeanalysissucceeded
+C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\x64\Debug\NativeCodeAnalysis.read.1.tlog

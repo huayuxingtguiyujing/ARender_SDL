@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\</FILEPATH>
+      <FILENAME>displayHandler.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 DisplayHandler::window。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>DisplayHandler::{ctor}</FUNCTION>
+    <DECORATED>??0DisplayHandler@@QEAA@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>DisplayHandler::window</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\</FILEPATH>
+      <FILENAME>displayHandler.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 DisplayHandler::surface。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>DisplayHandler::{ctor}</FUNCTION>
+    <DECORATED>??0DisplayHandler@@QEAA@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>DisplayHandler::surface</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\LaiX\Desktop\tasks\CLearn\Git_Render_SDL\ARender_SDL\ARender_SDL\</FILEPATH>
+      <FILENAME>displayHandler.cpp</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>70</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>DisplayHandler::swapBuffers</FUNCTION>
+    <DECORATED>?swapBuffers@DisplayHandler@@QEAAXPEAU?$Buffer@I@@@Z</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
